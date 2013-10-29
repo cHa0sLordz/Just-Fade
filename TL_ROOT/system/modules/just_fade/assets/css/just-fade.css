@@ -1,0 +1,2 @@
+#justfade img{position:absolute;z-index:1}
+#justfade img.active{z-index:3}

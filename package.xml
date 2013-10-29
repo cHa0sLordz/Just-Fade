@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE contaopackage>
+<extension name="JustFade" date="20131030">
+    <author user="TheG33k" name="TheG33k" />
+    <copyright>&amp;copy; 2008-2013 by TheG33k</copyright>
+    <license>Creative Commons (http://creativecommons.org/licenses/by-nc-sa/3.0/deed.de)</license>
+    <classification type="free" category="application" />
+    <release version="10000009" build="1" date="20131030" />
+    <contao minversion="30000009" maxversion="30010029" />
+    <language code="en">
+        <translator user="TheG33k" name="TheG33k" website="http://www.chaos-lordz.net" />
+        <searchtags>Slider,Fade,Bilder,jQuery</searchtags>
+        <title>Just-Fade</title>
+        <teaser>jQuery-Slider with smooth fading</teaser>
+        <description><description>&lt;p&gt;Integrate a smooth fading transition into your website easily.&lt;br&gt;&lt;br&gt;
+The github repository can be found under: https://github.com/cHa0sLordz/Just-Fade/&lt;br&gt;&lt;br&gt;Functionalities:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All options can be configured in the backend.&lt;/li&gt;
+&lt;li&gt;Use the slideshow as menu by associating a page link with each image.&lt;/li&gt;
+&lt;li&gt;Just-Fade can be used as a content element or as a module.&lt;/li&gt;
+&lt;li&gt;Just-Fade pictures can be displayed random&lt;/li&gt;
+&lt;li&gt;Just-Fade pictures can be shown/hidden with the time shedule&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Important:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Each image must have the same size.&lt;/li&gt;
+&lt;li&gt;This version is currently using jQuery and can&#039;t operate separately.&lt;br&gt; After having updated Coin Slider, you should change your page layouts by selecting &quot;Include jQuery&quot;.&lt;/li&gt;
+&lt;/ul&gt;</description>.</description>
+        <releasenotes>Initial Release</releasenotes>
+        <forum link="https://github.com/cHa0sLordz/Just-Fade/" />
+    </language>
+    <language code="de">
+        <translator user="TheG33k" name="TheG33k" website="http://www.chaos-lordz.net" />
+        <searchtags>Slider,Fade,Bilder,jQuery</searchtags>
+        <title>Just-Fade</title>
+        <teaser>jQuery-Slider mit sanftem Übergang</teaser>
+        <description><description>&lt;p&gt;Integrieren Sie einen sanften Bildübergang ganz einfache Weise in Ihre Website.&lt;br&gt;&lt;br&gt;
+Das GitHub Repository findest du unter: https://github.com/cHa0sLordz/Just-Fade/&lt;br&gt;&lt;br&gt;Funktionen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alle Optionen k&amp;ouml;nnen im Backend konfiguriert werden.&lt;/li&gt;
+&lt;li&gt;Verwenden Sie die Diashow als Men&amp;uuml;.&lt;/li&gt;
+&lt;li&gt;Just-Fade kann als Inhalts-Element oder als Modul benutzt werden.&lt;/li&gt;
+&lt;li&gt;Just-Fade Bilder können zufällig dargestellt werden&lt;/li&gt;
+&lt;li&gt;Just-Fade Bilder können nun per Zeitsteuerung gezeigt/versteckt werden&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Wichtig:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jedes Bild muss die selbe Gr&amp;ouml;&amp;szlig;e haben.&lt;/li&gt;
+&lt;li&gt;Diese Version nutzt jQuery und kann nicht seperat verwendet werden.&lt;br /&gt; Bitte vergiss nach der Installation nicht im Seitenlayout&quot;jQuery&quot; einzubinden.&lt;/li&gt;
+&lt;/ul&gt;</description>.</description>
+        <releasenotes>Initial Release</releasenotes>
+        <forum link="https://github.com/cHa0sLordz/Just-Fade/" />
+    </language>
+</extension>

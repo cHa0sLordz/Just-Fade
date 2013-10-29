@@ -1,0 +1,57 @@
+<div class="<?php echo $this->class; ?> block"<?php echo $this->cssID; ?><?php if ($this->style): ?> style="<?php echo $this->style; ?>"<?php endif; ?>>
+    <?php if ($this->headline): ?>
+        <<?php echo $this->hl; ?>><?php echo $this->headline; ?></<?php echo $this->hl; ?>>
+    <?php endif; ?>
+
+    <?php if ($this->ifPictures == true): ?>
+
+        <?php foreach ($this->preferences as $preferences): ?><?php endforeach; ?>
+
+        <div id="justfade">
+
+        <?php 
+        $i = 0;
+        
+        $contao_pictures = $this->pictures;
+        if ($preferences['shuffleImageOrder'] == true) shuffle($contao_pictures);
+
+        foreach ($contao_pictures as $pictures): 
+            $i++;
+            $activeclass='';
+            if($i==1) $activeclass = 'class="active"';
+
+            if($pictures['imageUrl']) {
+                echo
+                '<a href="'. $pictures['imageUrl'] .'">
+                    <img '.$activeclass.' alt="'.$pictures['alt'].'" src="'.$pictures['singleSRC'].'" height="'.$preferences['height'].'" width="'.$preferences['width'].'" />'.
+                    ($pictures['description'] != NULL ? ("<span>".$pictures['description']."</span>") : "").
+                '</a>';
+            }
+            else {
+                echo
+                '<span>
+                <img '.$activeclass.' alt="'.$pictures['alt'].'" src="'.$pictures['singleSRC'].'" height="'.$preferences['height'].'" width="'.$preferences['width'].'" />'.
+                
+                ($pictures['description'] != NULL ? ("<span>".$pictures['description']."</span>") : "").'</span>';
+            } ?>
+
+        <?php endforeach; ?>
+
+        </div>
+
+    <?php else: echo '<p><strong>' . $GLOBALS['TL_LANG']['MSC']['noImages'] . '</strong></p><br />'; ?>
+    <?php endif; ?>
+
+</div>
+
+<script type="text/javascript">
+
+
+    defaults.delay = <?php echo $preferences['delay']; ?>;
+    defaults.fadeSpeed = <?php echo $preferences['fadeSpeed']; ?>;
+
+$(document).ready(function() {
+    setInterval('JustFade()', defaults.delay);
+});
+
+</script>

@@ -1,0 +1,6 @@
+-----
+
+Contao extension by TheG33k (http://www.chaos-lordz.net)
+License: Creative Commons (http://creativecommons.org/licenses/by-nc-sa/3.0/deed.de)
+
+-----
