@@ -16,8 +16,10 @@
 $GLOBALS['TL_LANG']['tl_justPictures']['name']        = array('Name', 'Please enter a picture name.');
 $GLOBALS['TL_LANG']['tl_justPictures']['singleSRC']   = array('Source file', 'Please select a file from the files directory.');
 $GLOBALS['TL_LANG']['tl_justPictures']['alt']         = array('Alternate text', 'An accessible website should always provide an alternate text for images and movies with a short description of their content.');
-$GLOBALS['TL_LANG']['tl_justPictures']['imageUrl']    = array('Image link target', 'Associate a page with an image. You must activate the option “links” in the preferences of this Coin Slider. For external links, don\'t forget "http://".');
+$GLOBALS['TL_LANG']['tl_justPictures']['imageUrl']    = array('Image link target', 'Associate a page with an image. You must activate the option “links” in the preferences of this Just-Fades. For external links, don\'t forget "http://".');
 $GLOBALS['TL_LANG']['tl_justPictures']['published']   = array('Publish picture', 'Make the picture visible on the slideshow.');
+$GLOBALS['TL_LANG']['tl_justPictures']['start']   = array('Show from', 'Do not show the picture on the website before this day.');
+$GLOBALS['TL_LANG']['tl_justPictures']['stop']   = array('Show until', 'Do not show the picture on the website after this day.');
 $GLOBALS['TL_LANG']['tl_justPictures']['size']        = array('Image width and height', 'Here you can set the image dimensions and the resize mode.');
 $GLOBALS['TL_LANG']['tl_justPictures']['description'] = array('Image description', 'Here you can enter a short text that will be displayed below the image.');
 
