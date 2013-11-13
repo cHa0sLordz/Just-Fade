@@ -5,7 +5,7 @@
     <copyright>© 2008-2013 by TheG33k</copyright>
     <license>Creative Commons BY-NC-SA 3.0</license>
     <classification type="free" category="application" />
-    <release version="10000009" build="11" date="20131113" />
+    <release version="10000009" build="15" date="20131113" />
     <contao minversion="30000009" maxversion="30020006" />
     <language code="en">
         <translator user="TheGeek" name="The Geek" />
@@ -17,9 +17,9 @@ The github repository can be found under: https://github.com/cHa0sLordz/Just-Fad
 &lt;ul&gt;
 &lt;li&gt;All options can be configured in the backend.&lt;/li&gt;
 &lt;li&gt;Use the slideshow as menu by associating a page link with each image.&lt;/li&gt;
-&lt;li&gt;Just-Fade can be used as a content element or as a module.&lt;/li&gt;
-&lt;li&gt;Just-Fade pictures can be displayed random&lt;/li&gt;
-&lt;li&gt;Just-Fade pictures can be shown/hidden with the time shedule&lt;/li&gt;
+&lt;li&gt;Just Fade can be used as a content element or as a module.&lt;/li&gt;
+&lt;li&gt;Just Fade pictures can be displayed random&lt;/li&gt;
+&lt;li&gt;Just Fade pictures can be shown/hidden with the time shedule&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Important:&lt;/p&gt;
 &lt;ul&gt;
@@ -39,9 +39,9 @@ Das GitHub Repository findest du unter: https://github.com/cHa0sLordz/Just-Fade/
 &lt;ul&gt;
 &lt;li&gt;Alle Optionen können im Backend konfiguriert werden.&lt;/li&gt;
 &lt;li&gt;Verwenden Sie die Diashow als Menü.&lt;/li&gt;
-&lt;li&gt;Just-Fade kann als Inhalts-Element oder als Modul benutzt werden.&lt;/li&gt;
-&lt;li&gt;Just-Fade Bilder können zufällig dargestellt werden&lt;/li&gt;
-&lt;li&gt;Just-Fade Bilder können nun per Zeitsteuerung gezeigt/versteckt werden&lt;/li&gt;
+&lt;li&gt;Just Fade kann als Inhalts-Element oder als Modul benutzt werden.&lt;/li&gt;
+&lt;li&gt;Just Fade Bilder können zufällig dargestellt werden&lt;/li&gt;
+&lt;li&gt;Just Fade Bilder können nun per Zeitsteuerung gezeigt/versteckt werden&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Wichtig:&lt;/p&gt;
 &lt;ul&gt;
