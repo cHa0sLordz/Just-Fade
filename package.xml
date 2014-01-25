@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE contaopackage>
-<extension name="Just-Fade" date="20131113">
+<extension name="Just-Fade" date="20140125">
     <author user="TheGeek" name="The Geek" />
-    <copyright>© 2008-2013 by TheG33k</copyright>
+    <copyright>© 2008-2013 by TheGeek</copyright>
     <license>Creative Commons BY-NC-SA 3.0</license>
     <classification type="free" category="application" />
-    <release version="10000009" build="15" date="20131113" />
-    <contao minversion="30000009" maxversion="30020006" />
+    <release version="10000019" build="9" date="20140125" />
+    <contao minversion="30000009" maxversion="30020049" />
     <language code="en">
         <translator user="TheGeek" name="The Geek" />
         <searchtags>Slider,Fade,pictures,jQuery</searchtags>
@@ -24,9 +24,9 @@ The github repository can be found under: https://github.com/cHa0sLordz/Just-Fad
 &lt;p&gt;Important:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Each image must have the same size.&lt;/li&gt;
-&lt;li&gt;This version is currently using jQuery and can&#039;t operate separately.&lt;br&gt; After having updated Coin Slider, you should change your page layouts by selecting &quot;Include jQuery&quot;.&lt;/li&gt;
+&lt;li&gt;This version is currently using jQuery and can&#039;t operate separately.&lt;br&gt; After having updated Just Fade, you should change your page layouts by selecting &quot;Include jQuery&quot;.&lt;/li&gt;
 &lt;/ul&gt;</description>
-        <releasenotes>Initial Release</releasenotes>
+        <releasenotes>&lt;p&gt;Just-Fade now works with Contao 3.2.4&lt;/p&gt;</releasenotes>
         <forum link="https://github.com/cHa0sLordz/Just-Fade/" />
     </language>
     <language code="de">
@@ -39,16 +39,16 @@ Das GitHub Repository findest du unter: https://github.com/cHa0sLordz/Just-Fade/
 &lt;ul&gt;
 &lt;li&gt;Alle Optionen können im Backend konfiguriert werden.&lt;/li&gt;
 &lt;li&gt;Verwenden Sie die Diashow als Menü.&lt;/li&gt;
-&lt;li&gt;Just Fade kann als Inhalts-Element oder als Modul benutzt werden.&lt;/li&gt;
-&lt;li&gt;Just Fade Bilder können zufällig dargestellt werden&lt;/li&gt;
-&lt;li&gt;Just Fade Bilder können nun per Zeitsteuerung gezeigt/versteckt werden&lt;/li&gt;
+&lt;li&gt;Just-Fade kann als Inhalts-Element oder als Modul benutzt werden.&lt;/li&gt;
+&lt;li&gt;Just-Fade Bilder können zufällig dargestellt werden&lt;/li&gt;
+&lt;li&gt;Just-Fade Bilder können nun per Zeitsteuerung gezeigt/versteckt werden&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Wichtig:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Jedes Bild muss die selbe Größe haben.&lt;/li&gt;
 &lt;li&gt;Diese Version nutzt jQuery und kann nicht seperat verwendet werden.&lt;br&gt; Bitte vergiss nach der Installation nicht im Seitenlayout &quot;jQuery&quot; einzubinden.&lt;/li&gt;
 &lt;/ul&gt;</description>
-        <releasenotes>Initial Release</releasenotes>
+        <releasenotes>&lt;p&gt;Just-Fade funktioniert nun mit Contao 3.2.4&lt;/p&gt;</releasenotes>
         <forum link="https://github.com/cHa0sLordz/Just-Fade/" />
     </language>
 </extension>
