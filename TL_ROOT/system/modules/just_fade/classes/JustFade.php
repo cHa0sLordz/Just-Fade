@@ -60,7 +60,7 @@ class JustFade extends \Frontend {
         }
         else {
                 $imgSize = deserialize($objPictures->size);
-                $objFile = \FilesModel::findByPk($objPictures->singleSRC);
+                $objFile = \FilesModel::findByUuid($objPictures->singleSRC);
                 $srcImage = \Image::get($this->urlEncode($objFile->path), $imgSize[0], $imgSize[1], $imgSize[2]);
                 $arrPictures[$objPictures->id] = array(
                     'description' => $objPictures->description,
